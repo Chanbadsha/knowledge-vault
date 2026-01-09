@@ -260,3 +260,32 @@ header .header-nav li a {
 .brain-section-list li .check i {
   color: #30b868;
 }
+
+/* Early Access Section css */
+
+#early-access-section {
+  margin: 140px;
+  padding: 140px 0px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  background-color: rgba(98, 115, 130, 0.1);
+}
+
+#early-access-section h4 {
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+#early-access-section p {
+  line-height: 24px;
+  font-size: 16px;
+  max-width: 35%;
+  text-align: center;
+  margin: auto;
+  color: #627382;
+}
