@@ -131,6 +131,7 @@ header .header-nav li a {
   align-items: center;
   flex-direction: column;
   padding: 80px 140px 140px 140px;
+}
 #notes_section {
   text-align: center;
   width: 100vw;
