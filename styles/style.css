@@ -60,6 +60,9 @@ header .header-nav li a {
 /* Hero Section Css */
 .hero-section {
   background-image: url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
   max-height: 700px;
   height: 680px;
   padding: 115px 120px 180px 120px;
