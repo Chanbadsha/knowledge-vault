@@ -123,7 +123,7 @@ header .header-nav li a {
   gap: 16px;
 }
 
-/* Early Access Section Css */
+/* Notes Section  Section Css */
 
 #early_access {
   display: flex;
@@ -131,6 +131,15 @@ header .header-nav li a {
   align-items: center;
   flex-direction: column;
   padding: 80px 140px 140px 140px;
+#notes_section {
+  text-align: center;
+  width: 100vw;
+  padding: 80px 120px 120px 120px;
+  background-color: rgba(221, 221, 221, 0.2);
+}
+
+.section_content {
+  mask-border: 44px;
 }
 
 .section_content h2 {
@@ -176,12 +185,19 @@ header .header-nav li a {
   color: #fff;
   font-size: 30px;
 }
+.card_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
 
 .card_info h4 {
   font-size: 24px;
   font-weight: 600;
   text-transform: capitalize;
-  margin-bottom: 16px;
+
   max-width: 80%;
   margin: auto;
 }
