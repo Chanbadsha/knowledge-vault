@@ -24,6 +24,13 @@ ul li {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.secondary-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 500;
 }
 
 /* Header Section Style */
@@ -51,3 +58,64 @@ header .header-nav li a {
 }
 
 /* Hero Section Css */
+.hero-section {
+  background-image: url("../assets/hero-bg.png");
+  max-height: 700px;
+  height: 680px;
+  padding: 115px 120px 180px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-access-btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #30b868;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  text-transform: capitalize;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 2px;
+}
+.hero-access-btn .circle {
+  border: 1px solid rgb(48, 184, 104);
+  width: 12px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.hero-access-btn .circle i {
+  font-size: 8px;
+}
+
+.hero-section h1 {
+  color: white;
+  text-transform: capitalize;
+  margin: 16px auto;
+  line-height: 84px;
+  text-align: center;
+  font-size: 72px;
+  opacity: 0.9;
+}
+.hero-section h1 span {
+  color: #30b868;
+}
+.hero-section-des {
+  color: #fff;
+  line-height: 24px;
+  font-weight: 18px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.hero-section .hero-section-btn {
+  display: flex;
+  gap: 16px;
+}
