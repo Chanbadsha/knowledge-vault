@@ -122,3 +122,74 @@ header .header-nav li a {
   display: flex;
   gap: 16px;
 }
+
+/* Early Access Section Css */
+
+#early_access {
+  text-align: center;
+  width: 100vw;
+  padding: 80px 120px 120px 120px;
+  background-color: rgba(221, 221, 221, 0.2);
+}
+
+.section_content {
+  mask-border: 44px;
+}
+
+.section_content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+
+.section_content p {
+  color: #627382;
+  font-size: 16px;
+}
+
+.section_info {
+  display: flex;
+  gap: 20px;
+  margin-top: 44px;
+}
+
+.section_card {
+  background-color: #fff;
+  padding: 70px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card_icon {
+  width: 60px;
+  height: 60px;
+  background: #f95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_icon i {
+  color: #fff;
+  font-size: 30px;
+}
+
+.card_info h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  max-width: 80%;
+  margin: auto;
+}
+.card_info p {
+  line-height: 24px;
+  max-width: 80%;
+  margin: auto;
+}
