@@ -38,7 +38,7 @@ ul li {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 16px 120px;
+  padding: 16px 140px;
 
   align-items: center;
 }
@@ -65,7 +65,7 @@ header .header-nav li a {
   width: 100vw;
   max-height: 700px;
   height: 680px;
-  padding: 115px 120px 180px 120px;
+  padding: 115px 140px 180px 140px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,14 +126,11 @@ header .header-nav li a {
 /* Early Access Section Css */
 
 #early_access {
-  text-align: center;
-  width: 100vw;
-  padding: 80px 120px 120px 120px;
-  background-color: rgba(221, 221, 221, 0.2);
-}
-
-.section_content {
-  mask-border: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 140px 140px 140px;
 }
 
 .section_content h2 {
@@ -192,4 +189,57 @@ header .header-nav li a {
   line-height: 24px;
   max-width: 80%;
   margin: auto;
+}
+
+/* Brain Section Css */
+
+#brain-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 0px 140px;
+}
+
+.brain-image-section {
+  /* min-width: 50vw; */
+  max-width: 700px;
+}
+.brain-image-section img {
+  max-width: 700px;
+}
+
+.brain-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.brain-section-content .subtitle {
+  text-transform: uppercase;
+  color: #30b868;
+}
+.brain-section-content h4 {
+  font-weight: 700;
+  color: black;
+  max-width: 60%;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+.brain-section-content p {
+  color: #627382;
+  font-size: 16px;
+  max-width: 60%;
+  line-height: 24px;
+}
+.brain-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.brain-section-list li {
+  font-size: 14px;
+}
+.brain-section-list li .check i {
+  color: #30b868;
 }
