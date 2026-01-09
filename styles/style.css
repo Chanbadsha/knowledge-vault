@@ -7,6 +7,12 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+}
 
 /* Share Style */
 a {
@@ -25,6 +31,13 @@ ul li {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.primary-btn:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
 }
 .secondary-btn {
   background-color: transparent;
@@ -37,9 +50,15 @@ ul li {
 
 header {
   display: flex;
+  position: sticky;
   justify-content: space-between;
   padding: 16px 140px;
-
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  background: white;
   align-items: center;
 }
 
@@ -59,6 +78,7 @@ header .header-nav li a {
 
 /* Hero Section Css */
 .hero-section {
+  /* margin-top: 96px; */
   background-image: url("../assets/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
